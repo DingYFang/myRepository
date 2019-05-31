@@ -1,0 +1,225 @@
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, form, fieldset, legend, img, b, strong {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 16px; }
+
+ul, ol, li {
+  list-style: none; }
+
+img, fieldset {
+  border: none;
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+i, em {
+  font-style: normal; }
+
+.header {
+  height: 40px;
+  background-color: #666;
+  line-height: 40px; }
+  .header .container {
+    width: 1228px;
+    margin: 0 auto; }
+  .header .nav-left {
+    float: left; }
+    .header .nav-left li {
+      /*float: left;*/
+      margin-left: 43px;
+      height: 41px;
+      display: inline-block; }
+    .header .nav-left .tcl-news {
+      margin-left: 0; }
+  .header .nav-right {
+    float: right; }
+    .header .nav-right li {
+      display: inline-block;
+      height: 41px; }
+      .header .nav-right li span {
+        width: 1px;
+        height: 13px;
+        border-right: 1px solid #979797;
+        margin-left: 15px;
+        float: right;
+        margin-top: 16px; }
+      .header .nav-right li a {
+        padding-left: 15px; }
+    .header .nav-right .wchat-box {
+      margin-left: 43px; }
+  .header a {
+    font-size: 11px;
+    color: #ccc; }
+
+.navBar {
+  height: 60px;
+  background-color: #fff; }
+  .navBar .navCont {
+    width: 1228px;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #fff; }
+    .navBar .navCont::after {
+      content: "";
+      clear: both;
+      display: block;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden; }
+    .navBar .navCont .logo {
+      width: 76px;
+      height: 44px;
+      float: left;
+      margin-top: 8px;
+      margin-left: -20px;
+      background: url(../images/logo.png); }
+    .navBar .navCont .nav-list {
+      float: left;
+      width: 550px;
+      height: 40px;
+      padding-left: 100px; }
+      .navBar .navCont .nav-list li {
+        float: left;
+        cursor: pointer;
+        padding: 0 16px 0 17px; }
+        .navBar .navCont .nav-list li a {
+          font-size: 14px;
+          color: #333; }
+    .navBar .navCont .nav-menu {
+      width: 520px;
+      float: left;
+      position: relative; }
+      .navBar .navCont .nav-menu .menu-box {
+        display: inline-block; }
+        .navBar .navCont .nav-menu .menu-box i {
+          height: 16px;
+          display: inline-block;
+          float: left;
+          margin-top: 23px;
+          border-right: 1px solid #333; }
+        .navBar .navCont .nav-menu .menu-box li {
+          float: left;
+          cursor: pointer;
+          padding: 0 12px 0 17px; }
+          .navBar .navCont .nav-menu .menu-box li a {
+            font-size: 14px;
+            color: #333; }
+      .navBar .navCont .nav-menu .search {
+        width: 200px;
+        height: 33px;
+        display: inline-block;
+        position: absolute;
+        top: 12px;
+        border: 1px solid black; }
+        .navBar .navCont .nav-menu .search input {
+          border: 0;
+          height: 31px;
+          width: 190px;
+          display: block;
+          font-size: 12px;
+          padding-left: 10px; }
+
+.service {
+  background-color: #f0f0f0;
+  margin-top: 40px; }
+  .service::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden; }
+  .service ul {
+    width: 1228px;
+    margin: 0 auto;
+    border-bottom: 1px solid #999; }
+    .service ul::after {
+      content: "";
+      clear: both;
+      display: block;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden; }
+    .service ul li {
+      width: 25%;
+      float: left;
+      padding: 43px 0;
+      line-height: 30px;
+      cursor: pointer; }
+      .service ul li a {
+        font-size: 14px;
+        color: #666;
+        font-style: normal;
+        vertical-align: top; }
+
+.help {
+  background-color: #f0f0f0; }
+  .help .info {
+    width: 1228px;
+    margin: 0 auto; }
+    .help .info::after {
+      content: "";
+      clear: both;
+      display: block;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden; }
+    .help .info dl {
+      float: left;
+      margin-right: 102px;
+      margin-top: 40px; }
+      .help .info dl dt {
+        font-size: 14px;
+        line-height: 14px;
+        padding-bottom: 20px;
+        color: #333;
+        font-weight: 700; }
+      .help .info dl dd {
+        display: block;
+        line-height: 12px;
+        color: #999;
+        padding-bottom: 12px;
+        font-size: 12px;
+        margin-left: 0px; }
+    .help .info .server-phone {
+      margin-right: 0;
+      float: left; }
+      .help .info .server-phone .phone {
+        font-size: 20px;
+        /*line-height: 20px;*/
+        padding-bottom: 2px;
+        text-align: center;
+        letter-spacing: 2px; }
+      .help .info .server-phone .grey {
+        font-size: 12px;
+        color: #999;
+        text-align: center;
+        margin-top: -15px; }
+      .help .info .server-phone a {
+        width: 160px;
+        height: 36px;
+        color: red;
+        font-size: 12px;
+        padding: 2px;
+        margin-top: 10px;
+        border: 1px solid red;
+        display: inline-block; }
+
+.footer {
+  font-size: 12px;
+  color: #999;
+  width: 100%;
+  padding: 25px 0;
+  background-color: #e3e3e3; }
+  .footer .footer-cont {
+    width: 1228px;
+    margin: 0 auto; }
+    .footer .footer-cont a {
+      color: #666; }
+    .footer .footer-cont .foot-r {
+      float: right;
+      margin-top: -52px; }

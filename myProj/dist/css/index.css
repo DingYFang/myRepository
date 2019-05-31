@@ -1,0 +1,483 @@
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, form, fieldset, legend, img, b, strong {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 16px; }
+
+ul, ol, li {
+  list-style: none; }
+
+img, fieldset {
+  border: none;
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+i, em {
+  font-style: normal; }
+
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, form, fieldset, legend, img, b, strong {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 16px; }
+
+ul, ol, li {
+  list-style: none; }
+
+img, fieldset {
+  border: none;
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+i, em {
+  font-style: normal; }
+
+.header {
+  height: 40px;
+  background-color: #666;
+  line-height: 40px; }
+  .header .container {
+    width: 1228px;
+    margin: 0 auto; }
+  .header .nav-left {
+    float: left; }
+    .header .nav-left li {
+      /*float: left;*/
+      margin-left: 43px;
+      height: 41px;
+      display: inline-block; }
+    .header .nav-left .tcl-news {
+      margin-left: 0; }
+  .header .nav-right {
+    float: right; }
+    .header .nav-right li {
+      display: inline-block;
+      height: 41px; }
+      .header .nav-right li span {
+        width: 1px;
+        height: 13px;
+        border-right: 1px solid #979797;
+        margin-left: 15px;
+        float: right;
+        margin-top: 16px; }
+      .header .nav-right li a {
+        padding-left: 15px; }
+    .header .nav-right .wchat-box {
+      margin-left: 43px; }
+  .header a {
+    font-size: 11px;
+    color: #ccc; }
+
+.navBar {
+  height: 60px;
+  background-color: #fff; }
+  .navBar .navCont {
+    width: 1228px;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #fff; }
+    .navBar .navCont::after {
+      content: "";
+      clear: both;
+      display: block;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden; }
+    .navBar .navCont .logo {
+      width: 76px;
+      height: 44px;
+      float: left;
+      margin-top: 8px;
+      margin-left: -20px;
+      background: url(../images/logo.png); }
+    .navBar .navCont .nav-list {
+      float: left;
+      width: 550px;
+      height: 40px;
+      padding-left: 100px; }
+      .navBar .navCont .nav-list li {
+        float: left;
+        cursor: pointer;
+        padding: 0 16px 0 17px; }
+        .navBar .navCont .nav-list li a {
+          font-size: 14px;
+          color: #333; }
+    .navBar .navCont .nav-menu {
+      width: 520px;
+      float: left;
+      position: relative; }
+      .navBar .navCont .nav-menu .menu-box {
+        display: inline-block; }
+        .navBar .navCont .nav-menu .menu-box i {
+          height: 16px;
+          display: inline-block;
+          float: left;
+          margin-top: 23px;
+          border-right: 1px solid #333; }
+        .navBar .navCont .nav-menu .menu-box li {
+          float: left;
+          cursor: pointer;
+          padding: 0 12px 0 17px; }
+          .navBar .navCont .nav-menu .menu-box li a {
+            font-size: 14px;
+            color: #333; }
+      .navBar .navCont .nav-menu .search {
+        width: 200px;
+        height: 33px;
+        display: inline-block;
+        position: absolute;
+        top: 12px;
+        border: 1px solid black; }
+        .navBar .navCont .nav-menu .search input {
+          border: 0;
+          height: 31px;
+          width: 190px;
+          display: block;
+          font-size: 12px;
+          padding-left: 10px; }
+
+.service {
+  background-color: #f0f0f0;
+  margin-top: 40px; }
+  .service::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden; }
+  .service ul {
+    width: 1228px;
+    margin: 0 auto;
+    border-bottom: 1px solid #999; }
+    .service ul::after {
+      content: "";
+      clear: both;
+      display: block;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden; }
+    .service ul li {
+      width: 25%;
+      float: left;
+      padding: 43px 0;
+      line-height: 30px;
+      cursor: pointer; }
+      .service ul li a {
+        font-size: 14px;
+        color: #666;
+        font-style: normal;
+        vertical-align: top; }
+
+.help {
+  background-color: #f0f0f0; }
+  .help .info {
+    width: 1228px;
+    margin: 0 auto; }
+    .help .info::after {
+      content: "";
+      clear: both;
+      display: block;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden; }
+    .help .info dl {
+      float: left;
+      margin-right: 102px;
+      margin-top: 40px; }
+      .help .info dl dt {
+        font-size: 14px;
+        line-height: 14px;
+        padding-bottom: 20px;
+        color: #333;
+        font-weight: 700; }
+      .help .info dl dd {
+        display: block;
+        line-height: 12px;
+        color: #999;
+        padding-bottom: 12px;
+        font-size: 12px;
+        margin-left: 0px; }
+    .help .info .server-phone {
+      margin-right: 0;
+      float: left; }
+      .help .info .server-phone .phone {
+        font-size: 20px;
+        /*line-height: 20px;*/
+        padding-bottom: 2px;
+        text-align: center;
+        letter-spacing: 2px; }
+      .help .info .server-phone .grey {
+        font-size: 12px;
+        color: #999;
+        text-align: center;
+        margin-top: -15px; }
+      .help .info .server-phone a {
+        width: 160px;
+        height: 36px;
+        color: red;
+        font-size: 12px;
+        padding: 2px;
+        margin-top: 10px;
+        border: 1px solid red;
+        display: inline-block; }
+
+.footer {
+  font-size: 12px;
+  color: #999;
+  width: 100%;
+  padding: 25px 0;
+  background-color: #e3e3e3; }
+  .footer .footer-cont {
+    width: 1228px;
+    margin: 0 auto; }
+    .footer .footer-cont a {
+      color: #666; }
+    .footer .footer-cont .foot-r {
+      float: right;
+      margin-top: -52px; }
+
+.c-banner {
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  position: relative;
+  top: -22px; }
+  .c-banner .banner ul li {
+    display: none;
+    opacity: 0;
+    height: 550px;
+    position: absolute; }
+    .c-banner .banner ul li img {
+      width: 1920px;
+      height: 550px;
+      margin-left: -250px; }
+  .c-banner .banner ul .banner-first {
+    opacity: 1;
+    display: block; }
+  .c-banner .nexImg {
+    width: 28px;
+    height: 56px;
+    position: absolute;
+    top: 250px;
+    right: 0px;
+    z-index: 11; }
+    .c-banner .nexImg:hover {
+      opacity: 0.8; }
+    .c-banner .nexImg img {
+      width: 28px;
+      height: 56px; }
+  .c-banner .preImg {
+    width: 28px;
+    height: 56px;
+    position: absolute;
+    top: 250px;
+    z-index: 11; }
+    .c-banner .preImg:hover {
+      opacity: 0.8; }
+    .c-banner .preImg img {
+      width: 28px;
+      height: 56px; }
+  .c-banner .jumpBtn {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    text-align: right; }
+    .c-banner .jumpBtn ul li {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: white;
+      opacity: 0.9;
+      margin-left: 10px; }
+
+.navList {
+  width: 1228px;
+  margin: 0 auto;
+  position: relative; }
+  .navList .list-box {
+    width: 176px;
+    height: 510px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: -572px;
+    padding-top: 40px; }
+    .navList .list-box li {
+      width: 144px;
+      height: 67px;
+      line-height: 67px;
+      text-align: center;
+      cursor: pointer;
+      padding-left: 32px;
+      /*padding-right: 22px;*/ }
+      .navList .list-box li a {
+        color: #fff;
+        float: left;
+        font-size: 14px; }
+    .navList .list-box .active {
+      background-color: #f5f5f5; }
+      .navList .list-box .active a {
+        color: red; }
+  .navList .nav-items {
+    width: 758px;
+    height: 550px;
+    opacity: 0;
+    position: absolute;
+    top: -572px;
+    left: 176px; }
+    .navList .nav-items .pro-box {
+      width: 674px;
+      margin: 57px 0 0 30px; }
+      .navList .nav-items .pro-box::after {
+        content: "";
+        clear: both;
+        display: block;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden; }
+      .navList .nav-items .pro-box li {
+        margin: 0 0 38px 23px;
+        float: left; }
+        .navList .nav-items .pro-box li a {
+          display: block;
+          width: 312px;
+          height: 120px;
+          color: #555; }
+          .navList .nav-items .pro-box li a img {
+            vertical-align: middle;
+            height: 100%;
+            float: left; }
+          .navList .nav-items .pro-box li a .product {
+            font-size: 14px;
+            float: left;
+            width: 168px;
+            height: 84px;
+            margin-left: 22px; }
+            .navList .nav-items .pro-box li a .product button {
+              width: 98px;
+              height: 28px;
+              border: 1px solid #f30;
+              text-align: center;
+              line-height: 28px;
+              color: #f30;
+              background: 0 0;
+              cursor: pointer;
+              margin-top: 8px; }
+
+.newProduct {
+  height: 220px; }
+  .newProduct .new-pro-list {
+    width: 1228px;
+    margin: 0 auto;
+    margin: 34px auto 49px;
+    height: 220px; }
+    .newProduct .new-pro-list li {
+      height: 220px;
+      width: 400px;
+      background-color: red;
+      float: left;
+      margin-right: 12px; }
+    .newProduct .new-pro-list .last-pro {
+      margin-right: 0; }
+
+.proTel {
+  width: 100%; }
+  .proTel::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden; }
+  .proTel .telBox {
+    width: 1228px;
+    margin: 0 auto;
+    margin-top: 50px; }
+    .proTel .telBox .title {
+      height: 29px;
+      position: relative;
+      margin-bottom: 22px; }
+      .proTel .telBox .title h2 {
+        font-size: 22px;
+        font-weight: 400;
+        border-left: 4px solid #fe0000;
+        padding-left: 15px;
+        margin-right: 36px;
+        display: inline-block;
+        vertical-align: middle; }
+      .proTel .telBox .title ul {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 12px; }
+        .proTel .telBox .title ul li {
+          float: left;
+          margin-right: 16px; }
+          .proTel .telBox .title ul li a {
+            font-size: 14px;
+            color: #555; }
+        .proTel .telBox .title ul .more {
+          position: absolute;
+          right: 0;
+          font-size: 12px;
+          color: #fe0000; }
+  .proTel .content {
+    text-align: center; }
+    .proTel .content .cont-left {
+      float: left;
+      height: 615px;
+      width: 296px; }
+      .proTel .content .cont-left img {
+        width: 100%;
+        height: 100%; }
+    .proTel .content .cont-right {
+      float: left;
+      width: 932px;
+      text-align: center;
+      height: 615px; }
+      .proTel .content .cont-right li {
+        width: 294px;
+        height: 300px;
+        position: relative;
+        float: left;
+        background-color: red;
+        border: 1px solid blue;
+        text-align: center;
+        margin: 0 0 14px 14px;
+        background-color: #fff;
+        /*position: relative;
+			    top: 0;*/ }
+        .proTel .content .cont-right li .img-title {
+          width: 50px;
+          height: 50px;
+          position: absolute;
+          right: 0;
+          top: 0; }
+        .proTel .content .cont-right li a img {
+          width: 180px;
+          height: 180px;
+          margin-left: 60px; }
+        .proTel .content .cont-right li a .pro-title {
+          font-size: 14px;
+          color: #333; }
+        .proTel .content .cont-right li a .desc {
+          font-size: 12px;
+          color: #9b9b9b;
+          margin: 0px auto 0;
+          height: 30px;
+          line-height: 12px;
+          overflow: hidden;
+          width: 237px; }
+        .proTel .content .cont-right li a .price {
+          font-size: 14px;
+          color: #ff2524;
+          margin-top: 2px;
+          font-weight: 600; }

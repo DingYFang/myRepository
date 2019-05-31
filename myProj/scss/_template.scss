@@ -1,0 +1,251 @@
+@import "reset";
+
+@mixin container{
+	width: 1228px;
+    margin: 0 auto;
+}
+
+@mixin clearbox{
+	content:"";
+	clear: both;
+	display: block;
+	height: 0;
+	overflow:hidden;
+	visibility: hidden;
+}
+
+.header{
+	height:40px;
+	background-color: #666;
+    line-height: 40px;
+    .container{
+    	 @include container;
+    }
+    .nav-left{
+    	float: left;
+    	li{
+    		/*float: left;*/
+    		margin-left: 43px;
+    		height: 41px;
+    		display: inline-block;
+    	}
+    	.tcl-news{
+    		margin-left: 0;
+    	}
+
+    }
+    .nav-right{
+		float: right;
+		li{
+			display: inline-block;
+    		height: 41px;
+			span{
+				width: 1px;
+			    height: 13px;
+			    border-right: 1px solid #979797;
+			    margin-left: 15px;
+			    float: right;
+			    margin-top: 16px;
+			}
+			a{
+				padding-left: 15px;
+			}
+		}
+		.wchat-box{
+			margin-left: 43px;
+		}
+    }
+    a{
+    	font-size: 11px;
+    	color: #ccc;
+    }
+}
+
+.navBar{
+	height: 60px;
+	background-color: #fff;
+	.navCont{
+		&::after{
+			@include clearbox;
+		} 
+		@include container;
+
+		height: 60px;
+		line-height: 60px;
+		border: 1px solid #fff;
+		.logo{
+			width: 76px;
+			height: 44px;
+			float: left;
+			margin-top: 8px;
+			margin-left: -20px;
+		    background: url(../images/logo.png);
+		}
+		.nav-list{
+			float: left;
+			width: 550px;
+			height: 40px;
+			padding-left: 100px;
+			li{
+				float: left;
+				cursor: pointer;
+    			padding: 0 16px 0 17px;
+    			a{
+    			    font-size: 14px;
+				    color: #333;
+    			}
+			}
+		}
+
+		.nav-menu{
+			width: 520px;
+			float: left;
+			position: relative;
+			.menu-box{
+				display: inline-block;
+
+				i{
+					height: 16px;
+					display: inline-block;
+					float: left;
+					margin-top: 23px;
+					border-right: 1px solid #333;
+				}
+				li{
+					float: left;
+					cursor: pointer;
+	    			padding: 0 12px 0 17px;
+	    			a{
+	    			    font-size: 14px;
+					    color: #333;
+	    			}
+				}
+				
+			}
+			.search{
+				width: 200px;
+				height: 33px;
+				display: inline-block;
+				position: absolute;
+				top: 12px;
+				border: 1px solid black;
+				input{
+					border: 0;
+					height: 31px;
+					width: 190px;
+					display: block;
+					font-size: 12px;
+					padding-left: 10px;
+				}
+			}	
+		}
+	}
+}
+
+.service{
+	background-color: #f0f0f0;
+	&::after{
+		@include clearbox;
+	}
+	margin-top:40px;
+	ul{
+		@include container;
+		&::after{
+			@include clearbox;
+		}
+		 
+		 border-bottom:1px solid #999;
+		li{
+			width: 25%;
+		    float: left;
+		    padding: 43px 0;
+		    line-height: 30px;
+		    cursor: pointer;
+		    a{
+		    font-size: 14px;
+		    color: #666;
+		    font-style: normal;
+		    vertical-align: top;
+		    }
+		}
+	}
+}
+
+.help{
+	background-color: #f0f0f0;
+	.info{
+		@include container;
+		&::after{
+			@include clearbox;
+		}
+		dl{
+		float: left;
+    	margin-right: 102px;
+    	margin-top: 40px;
+    		dt{
+    			font-size: 14px;
+			    line-height: 14px;
+			    padding-bottom: 20px;
+			    color: #333;
+			    font-weight: 700;
+    		}
+    		dd{
+			    display: block;
+    			line-height: 12px;
+    			color: #999;
+				padding-bottom: 12px;
+			    font-size: 12px;
+			    margin-left: 0px;
+			}
+
+		}
+		.server-phone{
+			margin-right: 0;
+			float: left;
+			.phone{
+			    font-size: 20px;
+			    /*line-height: 20px;*/
+			    padding-bottom: 2px;
+			    text-align: center;
+			    letter-spacing: 2px;
+			}
+			.grey{
+				font-size: 12px;
+			    color: #999;
+			    text-align: center;
+			    margin-top: -15px;
+			}
+			a{
+			    width: 160px;
+			    height: 36px;
+			    color: red;
+			    font-size: 12px;
+			    padding: 2px;
+			    margin-top: 10px;
+			    border: 1px solid red;
+			    display: inline-block;
+			}
+		}
+
+	}
+}
+
+.footer{
+	font-size: 12px;
+    color: #999;
+    width: 100%;
+    padding: 25px 0;
+    background-color: #e3e3e3;
+    .footer-cont{
+    	@include container;
+    	a{
+    		color: #666;
+    	}
+    	.foot-r{
+    		float: right;
+    		margin-top: -52px;
+    	}
+
+    }
+    
+}
