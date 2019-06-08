@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<script type="text/javascript" src="../js/require.js" defer async="true" data-main = "../js/regMain"></script>
+</head>
+<body>
+	<div class="header-box">
+		<p>
+			<a href="" class="logo">
+				<img src="../images/logo.png" alt="">
+			</a>
+			<span>TCL账号登录</span>
+		</p>
+	</div>
+	<div class="register-box">
+		<div class="register-cont">
+			<p class="register-title">注册TCL账号</p>
+			<div class="register-ipt">
+				<span class="tel"></span>
+				<input id="regTel" type="text" class="telnum" placeholder="手机号码" name="username">
+				<span id="regTel-alt" class="alert"></span>
+			</div>
+			<div class="register-ipt">
+				<span class="safe"></span>
+				<input id="regCode" type="text" class="codeTest" placeholder="验证码">
+				<span class="codeNum"></span>
+				<span id="regCod-alt" class="alert"></span>
+			</div>
+			<div class="register-ipt">
+				<span class="SMS"></span>
+				<input id="passwd" type="password" class="SMSTest" placeholder="密码" name="password">
+				<span class="SMS"></span>
+				<input id="repasswd" type="password" class="SMSTest" placeholder="确认密码" name="repassword">
+<!-- 				<span class="getCode">获取验证码</span> -->
+				<span  id="pwd-alt" class="alert"></span>
+			</div>
+			<div class="register-agree">
+				<input type="checkbox" class="check" checked="">
+				<span class="agree-text">已阅读并同意用户服务条款和隐私政策</span>
+			</div>
+			<p class="register-btn">
+				<button class="reg-btn" id="regBtn">注册</button>
+				<span  id="reg-alt" class="alert"></span>
+			</p>
+			<p class="register-methods">
+				<a class="dstinct">已有账号直接登录</a>
+				<a class="third">推荐第三方登录</a>
+			</p>
+		</div>
+	</div>
+	<div class="footer-box">
+		<p class="footnav">
+		<a href="">关于TCL</a>
+		<a href="">社会责任</a>
+		<a href="">投资者关系</a>
+		<a href="">新闻中心</a>
+		<a href="">经销商之家</a></p>
+		<p class="copyright">
+			©2010-2016 TCL CORPORATION All Rights Reserved.  
+			<a href="">使用条款</a>
+			TCL集团股份有限公司版权所有 粤ICP备05040863号
+		</p>
+	</div>
+</body>
+</html>

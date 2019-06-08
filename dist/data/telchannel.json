@@ -1,0 +1,32 @@
+[
+	[{"img":"../images/telchannel-1.jpg","desc":"55T6 55英寸全场景AI人工","price":"3599.00元"},
+	{"img":"../images/telchannel-2.jpg","desc":"75v2 72英寸AI超智慧巨幕4K","price":"6999.00元"},
+	{"img":"../images/telchannel-3.jpg","desc":"70A950U 70英寸哈曼卡顿音","price":"5999.00元"},
+	{"img":"../images/telchannel-4.jpg","desc":"75A950U 75英寸哈曼卡顿音巨","price":"9999.00元"},
+	{"img":"../images/telchannel-5.jpg","desc":"55Q1 55英寸哈曼卡顿剧院电","price":"2799.00元"}]
+,[{"img":"../images/aircdtnchannel1.jpg","desc":"TCL 大1匹1级能效冷暖变频空调","price":"2149.00元"},
+	{"img":"../images/aircdtnchannel2.jpg","desc":"TCL大2匹1级能效变频空调","price":"1799.00元"},
+	{"img":"../images/aircdtnchannel3.jpg","desc":"TCL大1.5匹变频节能冷暖空调","price":"2099.00元"},
+	{"img":"../images/aircdtnchannel4.jpg","desc":"TCL大2匹冷暖除湿柜机空调","price":"4099.00元"},
+	{"img":"../images/aircdtnchannel5.jpg","desc":"TCL大1匹钛金静音冷暖空调","price":"1399.00元"}]
+,[{"img":"../images/telchannel-2.jpg","desc":"55T6 55英寸全场景AI人工","price":"3599.00元"},
+	{"img":"../images/telchannel-2.jpg","desc":"75v2 72英寸AI超智慧巨幕4K","price":"6999.00元"},
+	{"img":"../images/telchannel-2.jpg","desc":"70A950U 70英寸哈曼卡顿音","price":"5999.00元"},
+	{"img":"../images/telchannel-2.jpg","desc":"75A950U 75英寸哈曼卡顿音巨","price":"9999.00元"},
+	{"img":"../images/telchannel-2.jpg","desc":"55Q1 55英寸哈曼卡顿剧院电","price":"2799.00元"}]
+,[{"img":"../images/aircdtnchannel3.jpg","desc":"TCL 大1匹1级能效冷暖变频空调","price":"2149.00元"},
+	{"img":"../images/aircdtnchannel3.jpg","desc":"TCL大2匹1级能效变频空调","price":"1799.00元"},
+	{"img":"../images/aircdtnchannel3.jpg","desc":"TCL大1.5匹变频节能冷暖空调","price":"2099.00元"},
+	{"img":"../images/aircdtnchannel3.jpg","desc":"TCL大2匹冷暖除湿柜机空调","price":"4099.00元"},
+	{"img":"../images/aircdtnchannel3.jpg","desc":"TCL大1匹钛金静音冷暖空调","price":"1399.00元"}]
+,[{"img":"../images/telchannel-4.jpg","desc":"55T6 55英寸全场景AI人工","price":"3599.00元"},
+	{"img":"../images/telchannel-4.jpg","desc":"75v2 72英寸AI超智慧巨幕4K","price":"6999.00元"},
+	{"img":"../images/telchannel-4.jpg","desc":"70A950U 70英寸哈曼卡顿音","price":"5999.00元"},
+	{"img":"../images/telchannel-4.jpg","desc":"75A950U 75英寸哈曼卡顿音巨","price":"9999.00元"},
+	{"img":"../images/telchannel-4.jpg","desc":"55Q1 55英寸哈曼卡顿剧院电","price":"2799.00元"}]
+,[{"img":"../images/aircdtnchannel5.jpg","desc":"TCL 大1匹1级能效冷暖变频空调","price":"2149.00元"},
+	{"img":"../images/aircdtnchannel5.jpg","desc":"TCL大2匹1级能效变频空调","price":"1799.00元"},
+	{"img":"../images/aircdtnchannel5.jpg","desc":"TCL大1.5匹变频节能冷暖空调","price":"2099.00元"},
+	{"img":"../images/aircdtnchannel5.jpg","desc":"TCL大2匹冷暖除湿柜机空调","price":"4099.00元"},
+	{"img":"../images/aircdtnchannel5.jpg","desc":"TCL大1匹钛金静音冷暖空调","price":"1399.00元"}]
+]

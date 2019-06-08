@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TCL-购物车列表</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../css/template.css"> -->
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<script type="text/javascript" src="../js/require.js" defer async="true" data-main = "../js/scartMain"></script>
+</head>
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<ul class="nav-left">
+				<li class="tcl-news"><a href="">TCL新闻</a></li>
+				<li><a href="">企业采购</a></li>
+				<li><a href="">经销商之家</a></li>
+				<li><a href="">用户体验中心</a></li>
+				<li><a href="">铁粉社区</a></li>
+				<li><a href="">人才招聘</a></li>
+			</ul>
+			<ul class="nav-right">
+				<li class="wchat-box"><a href="">微信商城</a><span></span></li>
+				<li><a href=""><a href="">购物车(<i class="number">0</i>)</a></a><span></span></li>
+				<li><a href="register.html">注册</a><span></span></li>
+				<li><a href="login.html">登录</a></li>
+			</ul>
+		</div>
+	</div>
+<!-- sCart-box -->
+	<div class="sCart-box">
+<!-- sCart-header -->
+		<div class="sCart-header">
+			<a href="" class="logo"></a>
+			<span>我的购物车</span>
+		</div>
+		<hr>
+<!-- sCart-content -->	
+		<div class="sCart-content">
+		<!-- 空购物车 -->
+			<!-- <div class="empty">
+				<img src="../images/cart_empty.jpg" alt="">
+				<div class="empty_right">
+					<p>购物车空空的哦~去看看心仪的商品吧~</p>
+					<a href="">选购商品</a>
+				</div>
+			</div> -->
+		<!-- 购物车列表 -->
+			<div class="form-title">
+				<div class="title_tab">
+					<input type="checkbox">全选
+				</div>
+				<p class="info">商品信息</p>
+				<p class="pric">单价</p>
+				<p class="numb">数量</p>
+				<p class="sum">小计</p>
+				<p class="edit">操作</p>
+			</div>
+			<div class="shopping">
+				<div class="shoppList">
+					<!-- <div class="cont-item">
+						<dl>
+							<dd class="sel">
+								<input type="checkbox">
+							</dd>
+							<dd class="pro">
+								<span class="left">
+									<a href=""><img src="../images/scart-pro1.fid" alt="">
+									</a>
+								</span>
+								<span class="right">
+									<a href="">55T6 55英寸全场景AI人工智能电视</a>
+								</span>
+							</dd>
+							<dd class="pri">
+								<span>3199.00元</span>
+							</dd>
+							<dd class="num">
+								<button class="reg">-</button>
+								<span class="n">1</span>
+								<button class="add">+</button>
+							</dd>
+							<dd class="sub">
+								<span>3199.00元</span>
+								<del>3999.00元</del>
+							</dd>
+							<dd class="del">
+								<button>删除</button>
+							</dd>
+						</dl>
+					</div> -->
+				</div>
+				<div class="payment">
+					<a href="TV.html">继续购物>></a>
+					<div class="payinfo">
+						<!-- <span>共3件商品 已选择3件</span> -->
+						<span>合计（不含运费）：</span>
+						<span>
+							<em id="all-sum">23197.00</em>
+							<!-- <del>33997.00元</del> -->
+						</span>
+						<button class="paybtn">去结算</button>
+					</div>
+				</div>
+			</div>
+			
+		</div>	
+	</div>
+
+
+</body>
+</html>
